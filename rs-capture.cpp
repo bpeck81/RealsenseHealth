@@ -45,18 +45,18 @@ int main(int argc, char * argv[]) try
 	int i = 0;
 	int seg_count = 100;
 	std::vector<rs2::depth_frame> frames_v;
-
+	
+	//auto frames_v = new std::unique_ptr<std::vector<rs2::depth_frame>> ()>;
     while(running) 
     {
-		if (i == 0) {
-			//TODO lock threads
-			std::thread detector{ fall_detected(frames_v, seg_count) };
-		}
         rs2::frameset data = pipe.wait_for_frames(); // Wait for next set of frames from the camera
 		rs2::depth_frame depth_frame = data.get_depth_frame();
 		frames_v.push_back(depth_frame); //Copy frames
 		i++;
 		if (i%seg_count == 0) {
+			//TODO fix threads
+			auto cpy = frames_v;
+			std::thread detector{ fall_detected(cpy, seg_count) };// frames_cleared in fall_detected
 			frames_v.clear();
 			i = 0;
 
