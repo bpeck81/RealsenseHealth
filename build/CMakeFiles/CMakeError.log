@@ -1,0 +1,47 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X failed with the following output:
+Change Dir: C:/Users/brand_000/Documents/Intel Realsense SDK 2.0/examples/capture/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_bfa78.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.24723.2
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 5/14/2018 4:51:28 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
+Project "C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\cmTC_bfa78.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bfa78.dir\Debug\".
+  Creating directory "C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bfa78.dir\Debug\cmTC_bfa78.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bfa78.dir\Debug\cmTC_bfa78.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX0X /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bfa78.dir\Debug\\" /Fd"cmTC_bfa78.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -std=c++0x "C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CXX0X /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bfa78.dir\Debug\\" /Fd"cmTC_bfa78.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue  -std=c++0x "C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+cl : Command line warning D9002: ignoring unknown option '-std=c++0x' [C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\cmTC_bfa78.vcxproj]
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\Debug\cmTC_bfa78.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/brand_000/Documents/Intel Realsense SDK 2.0/examples/capture/build/CMakeFiles/CMakeTmp/Debug/cmTC_bfa78.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/brand_000/Documents/Intel Realsense SDK 2.0/examples/capture/build/CMakeFiles/CMakeTmp/Debug/cmTC_bfa78.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bfa78.dir\Debug\src.obj
+  cmTC_bfa78.vcxproj -> C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\Debug\cmTC_bfa78.exe
+  cmTC_bfa78.vcxproj -> C:/Users/brand_000/Documents/Intel Realsense SDK 2.0/examples/capture/build/CMakeFiles/CMakeTmp/Debug/cmTC_bfa78.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_bfa78.dir\Debug\cmTC_bfa78.tlog\unsuccessfulbuild".
+  Touching "cmTC_bfa78.dir\Debug\cmTC_bfa78.tlog\cmTC_bfa78.lastbuildstate".
+Done Building Project "C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\cmTC_bfa78.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\cmTC_bfa78.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9002: ignoring unknown option '-std=c++0x' [C:\Users\brand_000\Documents\Intel Realsense SDK 2.0\examples\capture\build\CMakeFiles\CMakeTmp\cmTC_bfa78.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.93
+
+Source file was:
+int main() { return 0; }

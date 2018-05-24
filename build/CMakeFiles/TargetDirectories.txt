@@ -1,0 +1,2 @@
+C:/Users/brand_000/Documents/Intel Realsense SDK 2.0/examples/capture/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/brand_000/Documents/Intel Realsense SDK 2.0/examples/capture/build/CMakeFiles/ZERO_CHECK.dir
